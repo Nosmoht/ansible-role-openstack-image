@@ -1,0 +1,15 @@
+---
+galaxy_info:
+  author: Thomas Krahn
+  description: Ansible role to setup a node to provide the Openstack Image Service
+  company:
+  license: GPLv2
+  min_ansible_version: 1.2
+  platforms:
+  - name: EL
+    versions:
+    - 7
+  categories:
+  - cloud
+dependencies:
+- role: os-glance  
